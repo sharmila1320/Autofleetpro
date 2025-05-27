@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiMessageSquare } from 'react-icons/fi';
 import UserFeedbackForm from '../feedback/UserFeedbackForm';
+import AutoFleetPro from '../path/to/AutoFleetPro';
+
 
 const Footer = () => {
     const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
