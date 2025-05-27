@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiMessageSquare } from 'react-icons/fi';
 import UserFeedbackForm from '../feedback/UserFeedbackForm';
-import AutoFleetPro from '../path/to/AutoFleetPro';
 
 
 const Footer = () => {
@@ -14,7 +13,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* Company Info */}
                     <div className="space-y-4">
-                        <h3 className="text-lg font-semibold"><AutoFleetPro></AutoFleetPro></h3>
+                        <h3 className="text-lg font-semibold">AutoFleetPro</h3>
                         <p className="text-sm text-text-primary/70">
                             Your trusted partner in finding the perfect vehicle.
                         </p>
@@ -83,7 +82,7 @@ const Footer = () => {
                             <li>123 Auto Drive</li>
                             <li>Los Angeles, CA 90001</li>
                             <li>Phone: (555) 123-4567</li>
-                            <li>Email: info@<AutoFleetPro></AutoFleetPro>.com</li>
+                            <li>Email: info@AutoFleetPro.com</li>
                         </ul>
                     </div>
                 </div>
@@ -92,7 +91,7 @@ const Footer = () => {
                 <div className="mt-12 pt-8 border-t border-text-primary/10">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <p className="text-sm text-text-primary/70">
-                            © {new Date().getFullYear()} <AutoFleetPro></AutoFleetPro>. All rights reserved.
+                            © {new Date().getFullYear()} AutoFleetPro. All rights reserved.
                         </p>
                         <button
                             onClick={() => setIsFeedbackOpen(true)}
