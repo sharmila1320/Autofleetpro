@@ -151,8 +151,8 @@ const Showcase = () => {
                       </div>
                     </div>
                   </div>
-                   <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary-light text-right break-words max-w-[6rem] sm:max-w-none">
-                      {cars[activeIndex].price}
+                   <div className="text-xl sm:text-2xl md:text-4xl font-bold text-primary-light text-right break-words max-w-[5.5rem] sm:max-w-none leading-tight">
+                     {cars[activeIndex].price}
                   </div>
                 </div>
               </motion.div>
