@@ -122,7 +122,7 @@ const Showcase = () => {
                 transition={{ delay: 0.3 }}
                 className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background-dark/90 to-transparent p-8"
               >
-                <div className="flex justify-between items-end">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end gap-4">
                   <div>
                     <h3 className="text-3xl font-bold text-text-primary mb-2">
                       {cars[activeIndex].name}
